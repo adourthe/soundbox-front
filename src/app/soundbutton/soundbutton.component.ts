@@ -14,4 +14,8 @@ export class SoundbuttonComponent implements OnInit {
   ngOnInit() {
   }
 
+  popup() {
+    alert("playing " + this.label);
+  }
+
 }
