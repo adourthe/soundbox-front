@@ -8,6 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class SoundbuttonComponent implements OnInit {
 
   @Input() label: String;
+  @Input() key: String;
 
   constructor() { }
 
