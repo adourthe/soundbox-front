@@ -3,8 +3,8 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http';
 import { SoundbuttonComponent } from './soundbutton/soundbutton.component';
-
 
 @NgModule({
   declarations: [
@@ -12,7 +12,8 @@ import { SoundbuttonComponent } from './soundbutton/soundbutton.component';
     SoundbuttonComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
